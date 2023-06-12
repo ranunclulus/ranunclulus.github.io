@@ -4,12 +4,6 @@ title:  "Algorithm 3 DFS/BFS"
 date:   2023-06-12 14:18:38 +0900
 categories: jekyll update
 ---
-<aside>
-<img src="https://raw.githubusercontent.com/eirikmadland/notion-icons/master/v5/icon3/mi-light-bulb.svg" alt="https://raw.githubusercontent.com/eirikmadland/notion-icons/master/v5/icon3/mi-light-bulb.svg" width="40px" /> Graph
-
-[Data Structure (4) Graph](https://www.notion.so/Data-Structure-4-Graph-cbfd8f07cc324c098268d538060155f7?pvs=21)
-
-</aside>
 
 ## DFS/BFS
 
@@ -37,31 +31,31 @@ categories: jekyll update
 
 - 시작 노드가 1인 그래프 DFS 동작하기
 
-  https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/GAxqb/btqJ6dAYOOz/p3ysI6YO2vKBtydazxsHW1/img.png
+  ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/GAxqb/btqJ6dAYOOz/p3ysI6YO2vKBtydazxsHW1/img.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/GAxqb/btqJ6dAYOOz/p3ysI6YO2vKBtydazxsHW1/img.png)
 
 - 시작 노드인 1을 스택에 넣고 방문 처리
 
-  https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/VJVxF/btqJ4HCmJ5l/pwWKCcQB3Akn6186o3VWXk/img.png
+  ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/VJVxF/btqJ4HCmJ5l/pwWKCcQB3Akn6186o3VWXk/img.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/VJVxF/btqJ4HCmJ5l/pwWKCcQB3Akn6186o3VWXk/img.png)
 
 - 노드 1과 인접해 있지만 방문하지 않은 노드 2, 3, 8 중 가장 작은 2를 넣고 방문 처리
 
-  https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/oJ4ex/btqJWRNcBZm/mXHsEc5wVRNfbFVIYOMxw1/img.png
+  ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/oJ4ex/btqJWRNcBZm/mXHsEc5wVRNfbFVIYOMxw1/img.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/oJ4ex/btqJWRNcBZm/mXHsEc5wVRNfbFVIYOMxw1/img.png)
 
 - 2의 인접 노드 1, 7 중 방문하지 않은 노드 7을 넣고 방문 처리
 
-  https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/mo5iW/btqJWRNcB1w/H1GLVZUl837r4okMVDHZj0/img.png
+  ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/mo5iW/btqJWRNcB1w/H1GLVZUl837r4okMVDHZj0/img.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/mo5iW/btqJWRNcB1w/H1GLVZUl837r4okMVDHZj0/img.png)
 
 - 7의 인접 노드 6, 8 중 방문하지 않고 가장 작은 6을 넣고 방문 처리
 
-  https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/cv2RBz/btqJ3hcOqeI/N0RUrpScWG5whJjymGOsL1/img.png
+  ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/cv2RBz/btqJ3hcOqeI/N0RUrpScWG5whJjymGOsL1/img.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/cv2RBz/btqJ3hcOqeI/N0RUrpScWG5whJjymGOsL1/img.png)
 
 - 6의 인접 노드 7 중 방문하지 않은 노드가 없기에 6을 꺼냄
 
-  https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/b910J3/btqJ0oQ5VLP/SEHo4XvRsUCzK3oPLkzdlk/img.png
+  ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/b910J3/btqJ0oQ5VLP/SEHo4XvRsUCzK3oPLkzdlk/img.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/b910J3/btqJ0oQ5VLP/SEHo4XvRsUCzK3oPLkzdlk/img.png)
 
 - 7의 인접 노드 6, 8 중 방문하지 않은 노드 8 넣고 방문 처리
 
-  https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/l2ML8/btqJ8gxr1Qe/mgvbwo0GKlAkKGhaeKtxR1/img.png
+  ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/l2ML8/btqJ8gxr1Qe/mgvbwo0GKlAkKGhaeKtxR1/img.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/l2ML8/btqJ8gxr1Qe/mgvbwo0GKlAkKGhaeKtxR1/img.png)
 
 - 결과적으로 노드의 탐색 순서 (스택에 들어간 순서): 1 → 2 → 7 → 6 → 3 → 4 → 5
 
@@ -123,31 +117,31 @@ def Non_Recursive_dfs(graph, v):
 
 - 시작 노드가 1인 그래프 BFS 동작하기
 
-  https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/GAxqb/btqJ6dAYOOz/p3ysI6YO2vKBtydazxsHW1/img.png
+  ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/GAxqb/btqJ6dAYOOz/p3ysI6YO2vKBtydazxsHW1/img.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/GAxqb/btqJ6dAYOOz/p3ysI6YO2vKBtydazxsHW1/img.png)
 
 - 시작 노드인 1을 큐에 넣고 방문 처리
 
-  https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/VJVxF/btqJ4HCmJ5l/pwWKCcQB3Akn6186o3VWXk/img.png
+  ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/VJVxF/btqJ4HCmJ5l/pwWKCcQB3Akn6186o3VWXk/img.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/VJVxF/btqJ4HCmJ5l/pwWKCcQB3Akn6186o3VWXk/img.png)
 
 - 노드 1을 꺼내고 방문하지 않은 인접 노드 2, 3, 8 을 큐에 넣은 뒤 방문 처리
 
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/26a4a6c6-240f-4c2d-be57-0d5c272f13f8/Untitled.png)
+  ![https://velog.velcdn.com/images/morion002/post/4678b53b-ff53-4eba-a14c-ba227426cdb3/image.png](https://velog.velcdn.com/images/morion002/post/4678b53b-ff53-4eba-a14c-ba227426cdb3/image.png)
 
 - 노드 2를 꺼내고 방문하지 않은 인접 노드 7을 넣은 뒤 방문 처리
 
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3906f5d1-aa49-4979-85e0-2fc0fa8400e3/Untitled.png)
+  ![https://velog.velcdn.com/images/morion002/post/008c38ee-a77b-4228-a790-aae4701498b3/image.png](https://velog.velcdn.com/images/morion002/post/008c38ee-a77b-4228-a790-aae4701498b3/image.png)
 
 - 노드 3을 꺼내고 방문하지 않은 인접 노드 4, 5을 큐에 넣은 뒤 방문 처리
 
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/66a5c341-a9b2-4b4a-8f41-0c337466834a/Untitled.png)
+  ![https://velog.velcdn.com/images/morion002/post/6d948265-70ae-4d85-8418-491e99b32e96/image.png](https://velog.velcdn.com/images/morion002/post/6d948265-70ae-4d85-8418-491e99b32e96/image.png)
 
 - 노드 8을 꺼내고 방문하지 않은 인접 노드 없기 때문에 패스
 
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6eb8f903-b414-4600-b8c5-a2fd6bb7313a/Untitled.png)
+  ![https://velog.velcdn.com/images/morion002/post/6602a298-5388-46de-8652-3ebc14c104a0/image.png](https://velog.velcdn.com/images/morion002/post/6602a298-5388-46de-8652-3ebc14c104a0/image.png)
 
 - 노드 7을 꺼내고 방문하지 않은 인접 노드인 6을 큐에 넣고 방문 처리
 
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4707bafc-78fb-4f7e-96cf-de6ed8bd8577/Untitled.png)
+  ![https://velog.velcdn.com/images/morion002/post/9a2c7233-47e3-4906-a1f1-c520370349e8/image.png](https://velog.velcdn.com/images/morion002/post/9a2c7233-47e3-4906-a1f1-c520370349e8/image.png)
 
 - 이 과정을 반복한 탐색 순서는 1 → 2 → 3 → 8 → 7 → 4 → 5 → 6
 
